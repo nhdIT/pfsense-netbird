@@ -12,7 +12,7 @@ rcvar=netbird_enable
 load_rc_config $name
 desc="netbird mesh vpn"
 pidfile="/var/run/${name}.pid"
-netbird_tun_dev="tunNB"
+netbird_tun_dev="tun12"
 procname="/usr/local/bin/netbird"
 start_cmd="${name}_start"
 stop_postcmd="${name}_poststop"
