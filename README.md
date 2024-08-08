@@ -31,7 +31,7 @@ create new interface, assign to tun12
 
 find netbird ip with netbird status
 
-set static IP to your netbird ip /24
+set static IP to your netbird ip /16
 
 create a gateway, also use your netbird ip
 
