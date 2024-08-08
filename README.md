@@ -17,13 +17,12 @@ make package
 
 ## Installing on pfSense
 
+```
 pkg add -f netbird-0.28.3-whatever.pkg
-
 sysrc netbird_enable=YES
-
 service netbird start
-
 netbird up -m https://netbirdhost -k netbirdkey -interface-name tun12
+```
 
 create new interface, assign to tun12
 
