@@ -1,5 +1,8 @@
 ## Unofficial Netbird pfSense package and FreeBSD Port
 
+## Screenshot
+<img width="1223" alt="Screenshot" src="https://github.com/user-attachments/assets/bc591de9-5f99-4b72-9f26-81479bdeb045">
+Hostnames are blurred.
 
 ## Build Instructions
 You can do something like:
