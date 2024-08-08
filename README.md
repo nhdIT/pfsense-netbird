@@ -1,15 +1,19 @@
 ## Unofficial Netbird pfSense package and FreeBSD Port
 
-Clone https://github.com/pfsense/FreeBSD-ports/tree/devel
 
-Copy the folders under /net in this repo to the /net folder in your ports
-
+## Build Instructions
+You can do something like:
 ```
-cd net/netbird
+git clone -b devel --depth 1 --single-branch https://github.com/pfsense/FreeBSD-ports.git
+git clone https://github.com/nhdIT/pfsense-netbird.git
+cp -R pfsense-netbird/net/* FreeBSD-ports/net/
+cd FreeBSD-ports/net/netbird
 make makesum
 make package
+cd FreeBSD-ports/net/pfSense-pkg-netbird/
+make
+make package
 ```
-same for pfsense package
 
 ## Installing on pfSense
 
