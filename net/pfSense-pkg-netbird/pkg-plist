@@ -1,0 +1,4 @@
+pkg/netbird.xml
+pkg/netbird.inc
+www/vpn_netbird.php
+%%DATADIR%%/info.xml

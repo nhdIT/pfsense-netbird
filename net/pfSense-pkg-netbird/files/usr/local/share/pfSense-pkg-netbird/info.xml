@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<pfsensepkgs>
+	<package>
+		<name>netbird</name>
+		<descr><![CDATA[its a mesh vpn or something]]></descr>
+		<version>%%PKGVERSION%%</version>
+		<configurationfile>netbird.xml</configurationfile>
+	</package>
+</pfsensepkgs>
